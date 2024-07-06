@@ -3,7 +3,7 @@ import pandas as pd
 import pulp
 from src.shift_scheduler.ShiftScheduler_8_2 import ShiftScheduler
 
-st.title("配乗計画問題")
+st.title("シフトスケジューリングアプリ")
 
 st.sidebar.header("データのアップロード")
 calendar_file = st.sidebar.file_uploader("カレンダー", type=["csv"])
